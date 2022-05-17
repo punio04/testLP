@@ -1857,7 +1857,7 @@ a.square_btn {
 }
 
 .bold {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -3016,7 +3016,9 @@ div#wrapper {
 }
 
 #enq {
-    padding: 50px 23%;
+    width: 450px;
+    margin: 0 auto;
+    padding: 9%;
     background-color: #fff;
     font-size: 25px;
     text-align: center;
@@ -3155,6 +3157,7 @@ screen and (min-width: 48em) {
     line-height: 1.4;
     font-weight: bold;
     text-align: center;
+    font-size: 43px;
 }
 
 @media print,
@@ -3235,6 +3238,7 @@ screen and (min-width: 48em) {
   font-weight: bold;
   text-align: left;
   line-height: 1.55;
+  font-size: 25px;
 }
 
 @media print,
@@ -3291,7 +3295,7 @@ screen and (min-width: 48em) {
   line-height: 1;
   color: #ff0200;
   content: 'A.';
-  
+  font-size: 22px;
 }
 
 @media print,
@@ -3311,6 +3315,9 @@ screen and (min-width: 48em) {
 
 .p-faq__inner>p:first-child {
   margin-top: 0;
+  font-size: 23px;
+  color: #595a5c;
+  font-weight: inherit;
 }
 
 @media print,
@@ -3401,7 +3408,9 @@ div#wrapper01 {
 }
 
 #enq01 {
-  padding: 50px 26%;
+  width: 450px;
+  margin: 0 auto;
+  padding: 9%;
   background-color: #fff;
   font-size: 25px;
   text-align: center;
@@ -3410,8 +3419,10 @@ div#wrapper01 {
 }
 
 #enq01 ul {
+  width: 340px;
   list-style: none;
   line-height: 1.6;
+  margin: 0 auto;
 }
 
 .list_check01 li {
@@ -3438,4 +3449,18 @@ div#wrapper01 {
 .button:hover img {
   opacity: 0.6;
   transition-duration: 0.3s;
+}
+
+#enq ol {
+  width: 440px;
+  margin: 0 auto;
+  line-height: 1.6;
+  list-style: none;
+  /* margin: 0; */
+  padding: 0;
+}
+
+.p-faq__inner p {
+  margin-bottom: 30px;
+
 }
